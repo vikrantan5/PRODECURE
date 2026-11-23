@@ -1,5 +1,5 @@
 Git Setup✅
-Node version manager setup
+Node version manager setup✅
 @nodejs releases se lena h
 nodejs projectsetup
 

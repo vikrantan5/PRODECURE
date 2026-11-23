@@ -1,0 +1,24 @@
+{
+  "name": "prodecure",
+  "version": "1.0.0",
+  "description": "the user managemenr service",
+  "keywords": [
+    "vikrant"
+  ],
+  "homepage": "https://github.com/vikrantan5/PRODECURE#readme",
+  "bugs": {
+    "url": "https://github.com/vikrantan5/PRODECURE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikrantan5/PRODECURE.git"
+  },
+  "license": "ISC",
+  "author": "vikrant",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
