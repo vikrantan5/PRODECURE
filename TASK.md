@@ -6,7 +6,7 @@ nodejs projectsetup
 <!-- //windows m nvmrc ka koi jarurat nhi h yaha directly instllation hota hai -->
 <!-- nvm use 22.10.0 -->
 
-typescri8pt setup
+typescri8pt setup✅
 prettier setup
 eslint setup
 git hooks setup
