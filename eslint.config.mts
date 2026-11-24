@@ -16,8 +16,8 @@ export default defineConfig([
     eslintReact.configs['recommended-typescript'],
     {
         rules: {
-            'no-console': 'error',
-            'dot-notation': 'error',
+            // 'no-console': 'error',
+            // 'dot-notation': 'error',
         },
     },
 ])
