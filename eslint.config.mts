@@ -17,7 +17,7 @@ export default defineConfig([
         {
         rules: {
             // 'no-console': 'error',
-            // 'dot-notation':'error'
+            'dot-notation':'error'
            
         },
     },
