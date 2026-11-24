@@ -7,8 +7,8 @@ nodejs projectsetup
 <!-- nvm use 22.10.0 -->
 
 typescri8pt setup✅
-prettier setup
-eslint setup
+prettier setup✅
+eslint setup✅
 git hooks setup
 application config setup
 expressjs app setup
