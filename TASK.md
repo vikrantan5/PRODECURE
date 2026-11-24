@@ -9,7 +9,7 @@ nodejs projectsetup
 typescri8pt setup✅
 prettier setup✅
 eslint setup✅
-git hooks setup
+git hooks setup✅
 application config setup
 expressjs app setup
 logger setup
