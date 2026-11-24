@@ -1,8 +1,8 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import tseslint from 'typescript-eslint';
-import eslintReact from '@eslint-react/eslint-plugin';
-import { defineConfig, globalIgnores } from 'eslint/config';
+import js from '@eslint/js'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
+import eslintReact from '@eslint-react/eslint-plugin'
+import { defineConfig, globalIgnores } from 'eslint/config'
 export default defineConfig([
     globalIgnores(['dist', 'node_modules', 'eslint.config.mjs']),
     {
@@ -15,9 +15,9 @@ export default defineConfig([
     eslintReact.configs['recommended-typescript'],
     {
         rules: {
-        // 'no-console': 'error',
-        // 'dot-notation': 'error',
+            // 'no-console': 'error',
+            // 'dot-notation': 'error',
         },
     },
-]);
+])
 //# sourceMappingURL=eslint.config.mjs.map
