@@ -5,7 +5,7 @@ import eslintReact from '@eslint-react/eslint-plugin'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-    globalIgnores(['dist', 'node_modules','eslint.config.mjs']),
+    globalIgnores(['dist', 'node_modules', 'eslint.config.mjs']),
     {
         files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
         plugins: { js },
@@ -14,11 +14,10 @@ export default defineConfig([
     },
     tseslint.configs.recommended,
     eslintReact.configs['recommended-typescript'],
-        {
+    {
         rules: {
-            // 'no-console': 'error',
-            'dot-notation':'error'
-           
+            'no-console': 'error',
+            'dot-notation': 'error',
         },
     },
 ])

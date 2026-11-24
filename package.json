@@ -1,45 +1,48 @@
 {
-  "name": "prodecure",
-  "version": "1.0.0",
-  "description": "the user managemenr service",
-  "keywords": [
-    "vikrant"
-  ],
-  "homepage": "https://github.com/vikrantan5/PRODECURE#readme",
-  "bugs": {
-    "url": "https://github.com/vikrantan5/PRODECURE/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vikrantan5/PRODECURE.git"
-  },
-  "license": "ISC",
-  "author": "vikrant",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon src/server.js",
-    "format:fix": "prettier . --write",
-    "format:check": "prettier . --check",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
-  },
-  "devDependencies": {
-    "@eslint-react/eslint-plugin": "^5.30.6",
-    "@eslint/js": "^9.39.5",
-    "@types/node": "^26.6.6",
-    "eslint": "^9.39.5",
-    "globals": "^17.14.0",
-    "husky": "^9.1.7",
-    "jiti": "^2.7.0",
-    "lint-staged": "^16.4.0",
-    "prettier": "3.10.1",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.73.0"
-  },
+    "name": "prodecure",
+    "version": "1.0.0",
+    "description": "the user managemenr service",
+    "keywords": [
+        "vikrant"
+    ],
+    "homepage": "https://github.com/vikrantan5/PRODECURE#readme",
+    "bugs": {
+        "url": "https://github.com/vikrantan5/PRODECURE/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vikrantan5/PRODECURE.git"
+    },
+    "license": "ISC",
+    "author": "vikrant",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/server.js",
+        "format:fix": "prettier . --write",
+        "format:check": "prettier . --check",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@eslint-react/eslint-plugin": "^5.30.6",
+        "@eslint/js": "^9.39.5",
+        "@types/node": "^26.6.6",
+        "eslint": "^9.39.5",
+        "globals": "^17.14.0",
+        "husky": "^9.1.7",
+        "jiti": "^2.7.0",
+        "lint-staged": "^16.4.0",
+        "prettier": "3.10.1",
+        "typescript": "^6.0.3",
+        "typescript-eslint": "^8.73.0"
+    },
     "lint-staged": {
-    "*.ts":["npm run format:fix" , "npm run lint:fix"]
-  }
+        "*.ts": [
+            "npm run format:fix",
+            "npm run lint:fix"
+        ]
+    }
 }
